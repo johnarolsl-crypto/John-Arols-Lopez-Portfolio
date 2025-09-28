@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> John Arols Lopez Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <h1> My  Portfolio</h1>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Home</h2>
+    <div class="cards">
+      <div class="card" data-modal="profileModal">My Profile</div>
+      <div class="card" data-modal="hobbiesModal">My Hobbies</div>
+      <div class="card" data-modal="activitiesModal">My Activities</div>
+      <div class="card" data-modal="contactModal">My Contact</div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="profileModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3> My Profile</h3>
+      <img src="./image/profile.jpg" alt="profile">
+      <div class="info">
+        <p><strong>Name:</strong> John Arols M. Lopez</p>
+        <p><strong>Age:</strong> 19</p>
+        <p><strong>Birthday:</strong> July 15, 2006</p>
+        <p><strong>Address:</strong> Barangay San Vicente, Abra De Ilog, Occidental Mindoro</p>
+        <p><strong>Birthplace:</strong> Mamburao Hospital</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="hobbiesModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>My Hobbies</h3>
+      <li>Playing Mobile Legends</li>
+        <li>Listening to Music</li>
+        <li>Watching Movies</li>
+    </div>
+  </div>
+
+  <div id="activitiesModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>John Arols Activities</h3>
+      <li> Assessment 2 (Laboratory - by Group) DONE</li>
+        <li> Assessment OS Installation (Individual) DONE </li>
+        <img src="./image/Act1.png" alt="Act1">
+        <li> Lesson 2 Assessment 1 (Individual) DONE </li>
+        <img src="./image/Act2.png" alt="Act2">
+        <li> Midterm Project DONE </li>
+    </div>
+  </div>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>John Arols Contact</h3>
+      <p><strong>Email:</strong> johnarolsl@gmail.com</p>
+      <p><strong>Phone:</strong> 0965-430-6104</p>
+      <p><strong>Facebook:</strong> John Arols Lopez</p>
+
+      <p><strong>GitHub:</strong> 
+        <a href="https://github.com/johnarolsl-crypto/John-Arols-Lopez-Portfolio" target="_blank" class="github-link">
+          Visit my GitHub
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
